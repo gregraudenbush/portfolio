@@ -1,6 +1,7 @@
 * {
    
     font-family: "Arial", "Helvetica", sans-serif;
+    
 }
 body {
     background-image: url("pics/engineer.jpg");
@@ -8,6 +9,7 @@ body {
     background-color:black;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 .button {
     background-color: rgb(17, 228, 228); 
@@ -44,6 +46,7 @@ table {
 .regdiv {
     display: inline-block;
     vertical-align: top;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 
 .main {
@@ -53,23 +56,29 @@ table {
     border-style: solid;
     padding-left: 20%;
     padding-top: 20%;
+    font-family: "Arial", "Helvetica", sans-serif;
         
     
 }
 
 .name {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     background-color: transparent;
+    text-shadow: 2px 3px 1px #000000;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 .title{
     color: white;
     font-size: 30px;
     background-color: transparent;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 .namebox{
     opacity: 1;
     background-color: transparent;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin: 10px;
 
 }
 .about{
@@ -77,11 +86,27 @@ table {
     padding-left: 10%;
     color: white;
     background-color: black;
+    padding-top: 10%;
+    font-family: "Arial", "Helvetica", sans-serif;
+    background-image: url("pics/grid.jpg")
 }
 .aboutbox{
     width: 30%;
     vertical-align: top;
     display: inline-block;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin-bottom: 10px;
+}
+.ptitle{
+    text-decoration: underline;
+    font-size: 20px;
+    color: turquoise;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+.ulstyle{
+    list-style-type: circle;
+    list-style-position: outside;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 
 
@@ -235,6 +260,7 @@ table {
 }
 
 #logo {
+    background-image: url("pics/glogo.png");
     display: inline-block;
     float: left;
     margin-right: 10px
@@ -262,7 +288,7 @@ table {
 }
 
 .container {
-    font-family: Open Sans, sans-serif;
+    /* font-family: Open Sans, sans-serif; */
     width: 900px;
     margin: 0 auto
 }
@@ -467,7 +493,7 @@ h3 a {
     padding-top: 32px;
     width: 100%;
     text-align: left;
-    font-family: Open Sans, sans-serif;
+    /* font-family: Open Sans, sans-serif; */
     position: relative;
     z-index: 2;
     /* background-color: white; */
@@ -512,6 +538,7 @@ h3 a {
 }
 
 #header .info {
+    text-shadow: 3px 3px 6px #000000;
     float: left;
     text-align: left !important;
     margin-top: 3px;
@@ -545,7 +572,7 @@ h3 a {
     padding-bottom: 2px;
     /* font-size: 17px;
     padding-bottom: 5px; */
-    font-family: open sans;
+    /* font-family: open sans; */
     letter-spacing: 1px;
     color: #fff;
     transition-property: font-size, color;
@@ -613,7 +640,7 @@ a.button {
 
 a.button:hover {
     color: #fff!important;
-    background: #F44336
+    background: turquoise;
 }
 
 #nav .nav-default li {
@@ -624,6 +651,7 @@ a.button:hover {
     color: #eee;
 }
 #nav .nav-default li a {
+    text-shadow: 3px 3px 6px #000000;
     text-decoration: none;
     font-size: 15px;
     padding: 93px 32px 25px
@@ -664,7 +692,7 @@ a.button:hover {
 
 .service-title {
     font-size: 34px;
-    font-family: open sans, sans-serif;
+    /* font-family: open sans, sans-serif; */
     margin-bottom: 40px
 }
 
@@ -774,7 +802,7 @@ h2 {
 
 h2,
 h4 {
-    font-family: open sans, sans-serif
+    /* font-family: open sans, sans-serif */
 }
 
 h2 a {
@@ -915,7 +943,7 @@ input[type=text],
 textarea {
     padding: 12px 24px;
     font-size: 15px;
-    font-family: open sans;
+    /* font-family: open sans; */
     color: #000;
     margin: 0 20px 10px 0;
     border: none;
@@ -986,7 +1014,7 @@ textarea {
     border: 1px solid #fff;
     font-size: 12px;
     font-weight: 700;
-    font-family: open sans, sans-serif;
+    /* font-family: open sans, sans-serif; */
     letter-spacing: 0;
     border-radius: 5px;
     -webkit-transition: padding .25s, background .25s;
@@ -1002,7 +1030,7 @@ textarea {
 .button:hover {
     cursor: pointer;
     background: #fff;
-    color: #F44336!important
+    color: turquoise !important;
 }
 
 .button:focus {
@@ -1013,7 +1041,7 @@ textarea {
     padding: 65px 0 62px;
     font-size: 11px;
     color: #eee;
-    font-family: open sans, sans-serif;
+    /* font-family: open sans, sans-serif; */
     clear: both
 }
 
@@ -1295,7 +1323,7 @@ textarea {
 }
 
 @font-face {
-    font-family: fontello;
+    /* font-family: fontello; */
     src: url(../font/fontello.eot?66648078);
     src: url(../font/fontello.eot?66648078#iefix) format('embedded-opentype'), url(../font/fontello.woff?66648078) format('woff'), url(../font/fontello.ttf?66648078) format('truetype'), url(../font/fontello.svg?66648078#fontello) format('svg');
     font-weight: 400;
